@@ -4,10 +4,11 @@ import (
 	"fmt"
 	"math/rand"
 	"strings"
+	"time"
 )
 
 func main() {
-	// rand.Seed(time.Now().Unix())
+	rand.Seed(time.Now().Unix())
 
 	list := newList()
 
