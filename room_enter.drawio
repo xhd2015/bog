@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T10:14:40.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="tzq7USDyGqU3Q2AgQFwp" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T10:15:12.508Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="x7SfTeimdC0JI1vugo3X" version="15.1.0" type="github">
   <diagram id="LkdizwOM0k1PNKCTk9f9" name="Page-1">
     <mxGraphModel dx="1426" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -243,19 +243,6 @@
         </mxCell>
         <mxCell id="rko0CJg5x_IpnPn0Ixie-74" value="白名单逻辑，仅在调用shark的情况下使用到" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="2150" width="160" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="rko0CJg5x_IpnPn0Ixie-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="660" y="2290" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="rko0CJg5x_IpnPn0Ixie-76" value="allowsdk.InAllowList" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" target="rko0CJg5x_IpnPn0Ixie-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="528.1700000000001" y="2290" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="rko0CJg5x_IpnPn0Ixie-77" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="rko0CJg5x_IpnPn0Ixie-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="528.1700000000001" y="2366" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="rko0CJg5x_IpnPn0Ixie-78" value="webcast.room.user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="970" y="460" width="100" height="2610" as="geometry" />
