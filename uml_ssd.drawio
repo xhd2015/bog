@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-09-07T09:04:03.443Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="GpitoALDPtZkcwL_BwAV" version="15.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-07T09:10:33.149Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="ZxnM1frEW7p0D0Q1M7LD" version="15.1.0" type="github">
   <diagram id="AptvirKz349jRKAdMpfH" name="Page-1">
     <mxGraphModel dx="594" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-2" value="Actor代表外部交互者" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-2" value="Actor代表外部交互者" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="130" y="250" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rMuzGA-09vZ5YcjGWgih-4" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
@@ -16,20 +16,20 @@
             <mxPoint x="90" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-5" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-5" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="140" y="370" as="sourcePoint" />
-            <mxPoint x="220" y="270" as="targetPoint" />
+            <mxPoint x="128" y="370" as="sourcePoint" />
+            <mxPoint x="208" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-6" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-6" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="130" y="510" as="sourcePoint" />
-            <mxPoint x="210" y="410" as="targetPoint" />
+            <mxPoint x="122" y="510" as="sourcePoint" />
+            <mxPoint x="202" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-7" value="垂直的虚线代表lifeline，即时间发生的整个时间范围" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="380" width="200" height="20" as="geometry" />
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-7" value="垂直的虚线代表lifeline，即事件发生的整个时间范围" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="373" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="rMuzGA-09vZ5YcjGWgih-8" value="系统" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="350" width="100" height="300" as="geometry" />
@@ -43,23 +43,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-10" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-10" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="618" as="sourcePoint" />
             <mxPoint x="290" y="558" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-11" value="水平的虚线代表返回，括号里面包含参数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-11" value="水平的虚线代表返回，括号里面包含参数" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="195" y="538" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-13" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-13" value="" style="endArrow=classic;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="510" as="sourcePoint" />
+            <mxPoint x="240" y="520" as="sourcePoint" />
             <mxPoint x="300" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rMuzGA-09vZ5YcjGWgih-14" value="水平的实现代表调用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="205" y="430" width="230" height="20" as="geometry" />
+        <mxCell id="rMuzGA-09vZ5YcjGWgih-14" value="水平的实现代表调用，实心三角表示同步调用，非实心三角表示异步调用" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="205" y="420" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
