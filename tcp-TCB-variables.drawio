@@ -1,1 +1,100 @@
-<mxfile host="app.diagrams.net" modified="2021-09-12T08:30:20.069Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" version="15.0.3" etag="58hmWGrBJWqNAVYbJyaq" type="github"><diagram id="OLb6H99NVurHBAbNcIay">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-09-12T08:37:58.511Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.107 Safari/537.36" etag="4DqzZu4Bfnki2uDuxD-b" version="15.0.3" type="github">
+  <diagram id="OLb6H99NVurHBAbNcIay" name="Page-1">
+    <mxGraphModel dx="1106" dy="702" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IQePV8dx6CvxLop7wID3-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="200" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-2" value="" style="endArrow=none;html=1;entryX=0.698;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="281" as="sourcePoint" />
+            <mxPoint x="400.20000000000005" y="199.48000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-3" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="280" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-5" value="SEND.UNA" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-6" value="SEND.NEXT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-7" value="" style="endArrow=none;html=1;entryX=0.698;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="531" y="281" as="sourcePoint" />
+            <mxPoint x="530.2" y="199.48000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-8" value="SEND.UNA+SEND.WIND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-9" value="已经确认的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-10" value="尚未确认的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-11" value="允许的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="414" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-12" value="发送序列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="370.52" width="390" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-14" value="" style="endArrow=none;html=1;entryX=0.698;entryY=-0.019;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="401" y="451.52" as="sourcePoint" />
+            <mxPoint x="400.20000000000005" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-15" value="" style="endArrow=none;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="450.52" as="sourcePoint" />
+            <mxPoint x="280" y="370.52" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-16" value="RECV.NEXT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="460.52" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-17" value="RECV.NEXT+RECV.WIND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="395" y="460.52" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-20" value="已经收到的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="395.52" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-21" value="允许收到的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="395.52" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-23" value="接收序列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="400.52" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-24" value="已发送，已ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-25" value="不允许的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="225" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-27" value="已发送，未ACK" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="285" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-28" value="未发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-29" value="不允许发送" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="535" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IQePV8dx6CvxLop7wID3-31" value="不允许的序列号" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="395.52" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
