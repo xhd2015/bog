@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T09:10:19.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="ErsqPH5ywe5_mg7swj0H" version="15.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-23T09:16:19.135Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="4W7_pKrVnJ3K8X2zbusW" version="15.1.0" type="github" pages="3">
   <diagram id="LkdizwOM0k1PNKCTk9f9" name="theory">
     <mxGraphModel dx="2777" dy="3862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1355,7 +1355,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N5GD0ehhbKWSJm7xqrKc" name="refactor">
-    <mxGraphModel dx="2968" dy="1462" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="731" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="4KYcGVDiKInLcVSAlLwh-0" />
         <mxCell id="4KYcGVDiKInLcVSAlLwh-1" parent="4KYcGVDiKInLcVSAlLwh-0" />
@@ -1554,8 +1554,8 @@
         <mxCell id="bY-JJU2dzF_6klA9gX1Z-18" value="其他不依赖Room的RPC,可强可弱" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="168" y="1041" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bY-JJU2dzF_6klA9gX1Z-21" value="原则：如果一个RPC调用不可避免，那么将其他不依赖的RPC调用集成到此RPC调用中。webcast.room.pack返回后尽快返回" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
-          <mxGeometry x="319" y="875" width="167" height="89" as="geometry" />
+        <mxCell id="bY-JJU2dzF_6klA9gX1Z-21" value="原则：如果一个RPC调用不可避免，那么将其他不依赖的RPC调用集成到此RPC调用中。webcast.room.pack返回后尽快返回。&lt;br&gt;&lt;br&gt;&lt;i&gt;“没有谁可以阻塞webcast.room.pack,因为大家都在等他.”&lt;/i&gt;" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
+          <mxGeometry x="319" y="875" width="305" height="89" as="geometry" />
         </mxCell>
         <mxCell id="bY-JJU2dzF_6klA9gX1Z-22" value="filter_sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="446.5" y="1112" width="120" height="60" as="geometry" />
@@ -1612,10 +1612,10 @@
           <mxGeometry x="78" y="1263" width="23" height="23" as="geometry" />
         </mxCell>
         <mxCell id="bY-JJU2dzF_6klA9gX1Z-40" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#FFFFFF;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
-          <mxGeometry x="39" y="1517" width="50" height="701" as="geometry" />
+          <mxGeometry x="39" y="1712" width="50" height="506" as="geometry" />
         </mxCell>
         <mxCell id="bY-JJU2dzF_6klA9gX1Z-41" value="模块：AfterCheck" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
-          <mxGeometry x="-102" y="1857.5" width="133" height="20" as="geometry" />
+          <mxGeometry x="-142" y="1955" width="133" height="20" as="geometry" />
         </mxCell>
         <mxCell id="bY-JJU2dzF_6klA9gX1Z-42" value="Pack" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="165" y="1494" width="120" height="60" as="geometry" />
