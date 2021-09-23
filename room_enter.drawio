@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T09:05:02.797Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="XCFawwnWp8qmbd0sb2GX" version="15.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-23T09:10:19.992Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="ErsqPH5ywe5_mg7swj0H" version="15.1.0" type="github" pages="3">
   <diagram id="LkdizwOM0k1PNKCTk9f9" name="theory">
     <mxGraphModel dx="2777" dy="3862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1665,8 +1665,8 @@
         <mxCell id="8Dxhc0fbLuRPfWV4BgLi-1" value="降级=一组开关的同时控制&lt;br&gt;&lt;br&gt;每个可以单独控制的逻辑都要由一个开关来控制" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="323" y="750" width="262" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="8Dxhc0fbLuRPfWV4BgLi-2" value="强制要求所有checker都有开关来控制" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
-          <mxGeometry x="1038" y="1056" width="205" height="20" as="geometry" />
+        <mxCell id="8Dxhc0fbLuRPfWV4BgLi-2" value="强制要求所有checker都有开关可以控制" style="text;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
+          <mxGeometry x="681" y="1146" width="205" height="77" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
