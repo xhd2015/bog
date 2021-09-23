@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-23T03:26:29.967Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="-CJGqf7b0xDDiGrpA6_K" version="15.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2021-09-23T03:57:31.717Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.30 Safari/537.36" etag="JQ9ZWhK4iZU4aK7NSSdz" version="15.1.0" type="github" pages="3">
   <diagram id="LkdizwOM0k1PNKCTk9f9" name="theory">
     <mxGraphModel dx="2777" dy="3862" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -641,7 +641,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YytsWUytYmjJNGqLRhpW" name="current">
-    <mxGraphModel dx="2190" dy="-1738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2168" dy="-1738" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="z1KYWdOEl_kDtaK1JKJt-0" />
         <mxCell id="z1KYWdOEl_kDtaK1JKJt-1" parent="z1KYWdOEl_kDtaK1JKJt-0" />
@@ -1243,7 +1243,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="N5GD0ehhbKWSJm7xqrKc" name="refactor">
-    <mxGraphModel dx="1714" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1701" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="4KYcGVDiKInLcVSAlLwh-0" />
         <mxCell id="4KYcGVDiKInLcVSAlLwh-1" parent="4KYcGVDiKInLcVSAlLwh-0" />
@@ -1295,8 +1295,8 @@
         <mxCell id="sMD5Nd48nqryuUwVw105-2" value="并行" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="135.5" y="686" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="FD7P8eZ_DP2r7arpnBDi-0" value="基于TCC的配置校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
-          <mxGeometry x="167" y="722" width="120" height="60" as="geometry" />
+        <mxCell id="FD7P8eZ_DP2r7arpnBDi-0" value="本地计算校验" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
+          <mxGeometry x="-9" y="498" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0zwrxJGG8Y51z4g9xymn-0" value="是否降级?" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="164" y="555" width="120" height="60" as="geometry" />
@@ -1343,7 +1343,7 @@
             <mxPoint x="127" y="1376" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hyjl_sA3N108EjCwQQ1h-0" value="链路分为34阶段：&lt;br&gt;1.入参本地校验&lt;br&gt;2.请求webcast.room.pack&lt;br&gt;3.带room数据的校验&lt;br&gt;4.允许进房之后的动作" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
+        <mxCell id="hyjl_sA3N108EjCwQQ1h-0" value="链路分为4阶段：&lt;br&gt;1.入参本地校验&lt;br&gt;2.请求webcast.room.pack&lt;br&gt;3.带room数据的校验&lt;br&gt;4.允许进房之后的动作" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
           <mxGeometry x="611" y="308" width="191" height="80" as="geometry" />
         </mxCell>
         <mxCell id="hyjl_sA3N108EjCwQQ1h-2" value="调用shark" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="4KYcGVDiKInLcVSAlLwh-1">
