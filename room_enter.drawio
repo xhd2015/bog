@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-19T10:43:19.826Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="P4wTRWkrohvZ8gDdqXnk" version="15.5.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-19T12:36:31.125Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="OsWFQtUH4OB9dXvHZUWf" version="15.5.5" type="github" pages="4">
   <diagram id="LkdizwOM0k1PNKCTk9f9" name="theory">
     <mxGraphModel dx="1826" dy="3277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1793,8 +1793,8 @@
         <mxCell id="yN29N9iKaxsPTZhC8GEM-21" value="live_id的全局通用配置&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;lt;live_id&amp;gt;:&amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;auth_name&amp;gt;: true|false&lt;br&gt;&amp;nbsp; &amp;nbsp;}&lt;br&gt;}" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;base=15;size=30;position=0.12;position2=0.04;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
           <mxGeometry x="430" y="371" width="250" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="yN29N9iKaxsPTZhC8GEM-22" value="Load Auth" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
-          <mxGeometry x="340" y="840" width="120" height="60" as="geometry" />
+        <mxCell id="yN29N9iKaxsPTZhC8GEM-22" value="TCC Loader1" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+          <mxGeometry x="240" y="1040" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yN29N9iKaxsPTZhC8GEM-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;" edge="1" parent="F46WOC1M70llKa8FX_Fy-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -1802,11 +1802,47 @@
             <mxPoint x="50" y="1060" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jPeSJgy7ZAVu9G97jWzd-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
-          <mxGeometry x="340" y="960" width="120" height="60" as="geometry" />
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-0" value="Load Auth" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+          <mxGeometry x="460" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="jPeSJgy7ZAVu9G97jWzd-1" value="一个规则表能够表达所有的规则吗？&lt;br&gt;不能。&lt;br&gt;1.规则表只能表达特定的逻辑组合&lt;br&gt;2.大的规则表不易管理，或者几乎不可管理&lt;br&gt;3.合并而产生的规则表可能存在多组完全无关的字段，破坏了内聚原则&lt;br&gt;&lt;br&gt;建议：不要将规则表用作核心的解决方案，而是作为辅助工具&lt;br&gt;&lt;br&gt;规则表的核心思想是什么？统一管理。将所有能够影响结果的因素聚合起来管理。" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
           <mxGeometry x="-330" y="870" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-2" value="TCC Loader2" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+          <mxGeometry x="380" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-3" value="Dolphin Loader" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+          <mxGeometry x="520" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-4" value="Loader4" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=center;verticalAlign=middle;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+          <mxGeometry x="660" y="1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="F46WOC1M70llKa8FX_Fy-1" source="jPeSJgy7ZAVu9G97jWzd-0" target="yN29N9iKaxsPTZhC8GEM-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="1120" as="sourcePoint" />
+            <mxPoint x="60" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-6" value="LiveID,RoomID,UserID,AnchorID,AuthKey" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+          <mxGeometry x="420" y="910" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="F46WOC1M70llKa8FX_Fy-1" source="jPeSJgy7ZAVu9G97jWzd-0" target="jPeSJgy7ZAVu9G97jWzd-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="900" as="sourcePoint" />
+            <mxPoint x="310" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="F46WOC1M70llKa8FX_Fy-1" source="jPeSJgy7ZAVu9G97jWzd-0" target="jPeSJgy7ZAVu9G97jWzd-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="900" as="sourcePoint" />
+            <mxPoint x="450" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jPeSJgy7ZAVu9G97jWzd-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=9;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="F46WOC1M70llKa8FX_Fy-1" source="jPeSJgy7ZAVu9G97jWzd-0" target="jPeSJgy7ZAVu9G97jWzd-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="900" as="sourcePoint" />
+            <mxPoint x="590" y="1050" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
