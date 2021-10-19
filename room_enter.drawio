@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-18T11:20:07.594Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.49 Safari/537.36" etag="ezLBYJvEY3VRoCYqGcFs" version="15.3.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-10-19T07:58:54.036Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.49 Safari/537.36" etag="WNSwy2RR8vKVqKEhmyqq" version="15.5.5" type="github" pages="4">
   <diagram id="LkdizwOM0k1PNKCTk9f9" name="theory">
     <mxGraphModel dx="1826" dy="3277" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -1684,47 +1684,47 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Gp5QH045nY2XUosH3Ccs" name="room_auth">
-    <mxGraphModel dx="2038" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="F46WOC1M70llKa8FX_Fy-0" />
         <mxCell id="F46WOC1M70llKa8FX_Fy-1" parent="F46WOC1M70llKa8FX_Fy-0" />
-        <mxCell id="SUUeb8tf6r8SJGlYj8uq-0" value="webcast.room.pack::normal_room_auth" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+        <mxCell id="SUUeb8tf6r8SJGlYj8uq-0" value="webcast.room.pack::normal_room_auth" style="rounded=0;whiteSpace=wrap;html=1;" parent="F46WOC1M70llKa8FX_Fy-1" vertex="1">
           <mxGeometry x="230" y="230" width="270" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-5" value="" style="group" vertex="1" connectable="0" parent="F46WOC1M70llKa8FX_Fy-1">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-5" value="" style="group" parent="F46WOC1M70llKa8FX_Fy-1" vertex="1" connectable="0">
           <mxGeometry x="230" y="230" width="20" height="6" as="geometry" />
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-1" value="" style="endArrow=none;html=1;" edge="1" parent="gpuHVcjw-OpuVu52gOgJ-5">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-1" value="" style="endArrow=none;html=1;" parent="gpuHVcjw-OpuVu52gOgJ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint as="sourcePoint" />
             <mxPoint x="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-2" value="" style="endArrow=none;html=1;" edge="1" parent="gpuHVcjw-OpuVu52gOgJ-5">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-2" value="" style="endArrow=none;html=1;" parent="gpuHVcjw-OpuVu52gOgJ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="2" as="sourcePoint" />
             <mxPoint x="20" y="2" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-3" value="" style="endArrow=none;html=1;" edge="1" parent="gpuHVcjw-OpuVu52gOgJ-5">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-3" value="" style="endArrow=none;html=1;" parent="gpuHVcjw-OpuVu52gOgJ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="4" as="sourcePoint" />
             <mxPoint x="20" y="4" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-4" value="" style="endArrow=none;html=1;" edge="1" parent="gpuHVcjw-OpuVu52gOgJ-5">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-4" value="" style="endArrow=none;html=1;" parent="gpuHVcjw-OpuVu52gOgJ-5" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="6" as="sourcePoint" />
             <mxPoint x="20" y="6" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-10" value="保存每个live_id+auth_name映射的主播列表&lt;br&gt;黑名单机制&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;lt;live_id&amp;gt;:&amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;auth_name&amp;gt;: &amp;lt;allow_list_id&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;}&lt;br&gt;}&lt;br&gt;allowlist中" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;base=15;size=30;position=0.12;position2=0.04;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-10" value="保存每个live_id+auth_name映射的主播列表&lt;br&gt;黑名单机制&lt;br&gt;{&lt;br&gt;&amp;nbsp; &amp;nbsp;&amp;lt;live_id&amp;gt;:&amp;nbsp; {&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;auth_name&amp;gt;: &amp;lt;allow_list_id&amp;gt;&lt;br&gt;&amp;nbsp; &amp;nbsp;}&lt;br&gt;}&lt;br&gt;allowlist中" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;base=15;size=30;position=0.12;position2=0.04;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;" parent="F46WOC1M70llKa8FX_Fy-1" vertex="1">
           <mxGeometry x="500" y="62" width="250" height="174" as="geometry" />
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-11" value="RoomAuth开关值:&lt;br&gt;&lt;br&gt;0 - 未配置&lt;br&gt;1 - on&lt;br&gt;2 - off" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
-          <mxGeometry y="-40" width="140" height="80" as="geometry" />
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-11" value="RoomAuth开关值:&lt;br&gt;&lt;br&gt;0 - 未配置&lt;br&gt;1 - on&lt;br&gt;2 - off" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="F46WOC1M70llKa8FX_Fy-1" vertex="1">
+          <mxGeometry x="780" y="62" width="140" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="gpuHVcjw-OpuVu52gOgJ-12" value="LiveRoomMode映射:&lt;br&gt;&lt;br&gt;0 - 普通&lt;br&gt;1 - obs游戏直播(直播伴侣)&lt;br&gt;2 - 媒体直播(官方媒体)&lt;br&gt;3 - 电台直播&lt;br&gt;4 - 录屏直播&lt;br&gt;5 - 熟人房&lt;br&gt;6 - vs直播&lt;br&gt;7 - vs首播" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" vertex="1" parent="F46WOC1M70llKa8FX_Fy-1">
+        <mxCell id="gpuHVcjw-OpuVu52gOgJ-12" value="LiveRoomMode映射:&lt;br&gt;&lt;br&gt;0 - 普通&lt;br&gt;1 - obs游戏直播(直播伴侣)&lt;br&gt;2 - 媒体直播(官方媒体)&lt;br&gt;3 - 电台直播&lt;br&gt;4 - 录屏直播&lt;br&gt;5 - 熟人房&lt;br&gt;6 - vs直播&lt;br&gt;7 - vs首播" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="F46WOC1M70llKa8FX_Fy-1" vertex="1">
           <mxGeometry x="-20" y="109" width="160" height="161" as="geometry" />
         </mxCell>
       </root>
