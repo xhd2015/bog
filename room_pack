@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T03:08:16.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="kO2D5ZTK1plt3eCdtAO7" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:41:32.579Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="yEndhGXmWFFVeVmgb9hf" version="15.5.5" type="github">
   <diagram id="lWEFJz6k4iiL4ypVeaAn" name="room_pack_loader">
     <mxGraphModel dx="3126" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -199,7 +199,7 @@
         <mxCell id="DCC6d8GmMCfnuTwLOyzs-104" value="用于PSM调用鉴权，以及参数配置(PSM+场景即参数)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-403" y="701" width="273" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-105" value="key即为room_id&lt;br&gt;&lt;br&gt;执行逻辑：&lt;br&gt;遍历ResolverTree中的所有节点，对所有的叶节点，开启goroutine并发执行&lt;br&gt;&lt;br&gt;默认超时500ms" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-105" value="key即为room_id&lt;br&gt;&lt;br&gt;执行逻辑：&lt;br&gt;遍历ResolverTree中的所有节点，对所有的叶节点，开启goroutine并发执行(线程池)&lt;br&gt;&lt;br&gt;默认超时500ms，对字段不区分强弱依赖，所有字段都是强依赖。即无聊哪个字段导致超时，最终都是返回错误" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-60" y="928" width="240" height="130" as="geometry" />
         </mxCell>
         <mxCell id="DCC6d8GmMCfnuTwLOyzs-106" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCC6d8GmMCfnuTwLOyzs-97" target="DCC6d8GmMCfnuTwLOyzs-105">
@@ -209,12 +209,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DCC6d8GmMCfnuTwLOyzs-107" value="PackRoom" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-900" y="500" width="120" height="60" as="geometry" />
+          <mxGeometry x="-900" y="360" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DCC6d8GmMCfnuTwLOyzs-108" value="根据caller psm+scene获取配置" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="-900" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCC6d8GmMCfnuTwLOyzs-107" target="DCC6d8GmMCfnuTwLOyzs-108">
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-109" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCC6d8GmMCfnuTwLOyzs-149" target="DCC6d8GmMCfnuTwLOyzs-108">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-640" y="640" as="sourcePoint" />
             <mxPoint x="-590" y="590" as="targetPoint" />
@@ -356,6 +356,51 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="760" y="705" as="sourcePoint" />
             <mxPoint x="870" y="511" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-149" value="goroom检查房间存在状态" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-900" y="504" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-151" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCC6d8GmMCfnuTwLOyzs-107" target="DCC6d8GmMCfnuTwLOyzs-149">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-830" y="430" as="sourcePoint" />
+            <mxPoint x="-830" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-152" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="DCC6d8GmMCfnuTwLOyzs-149" target="DCC6d8GmMCfnuTwLOyzs-160">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-700" y="490" as="sourcePoint" />
+            <mxPoint x="-470" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-153" value="Loader" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-410" y="60" width="160" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-154" value="root: NodeRoot" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCC6d8GmMCfnuTwLOyzs-153">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-155" value="t: MessageType" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCC6d8GmMCfnuTwLOyzs-153">
+          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-156" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="DCC6d8GmMCfnuTwLOyzs-153">
+          <mxGeometry y="78" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-157" value="SetResolver: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCC6d8GmMCfnuTwLOyzs-153">
+          <mxGeometry y="86" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-158" value="Build(param)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="DCC6d8GmMCfnuTwLOyzs-153">
+          <mxGeometry y="112" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-159" value="所有的RPC均由loader加载，并设置缓存策略" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="70" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-160" value="goroom loader" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DCC6d8GmMCfnuTwLOyzs-162" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="DCC6d8GmMCfnuTwLOyzs-160" target="DCC6d8GmMCfnuTwLOyzs-158">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-490" y="230" as="sourcePoint" />
+            <mxPoint x="-440" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
