@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T03:06:18.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="G5RduRXZVEaRN8VmYVDe" version="15.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T03:08:16.530Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="kO2D5ZTK1plt3eCdtAO7" version="15.5.5" type="github">
   <diagram id="lWEFJz6k4iiL4ypVeaAn" name="room_pack_loader">
     <mxGraphModel dx="3126" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,51 +6,6 @@
         <mxCell id="1" parent="0" />
         <mxCell id="DCC6d8GmMCfnuTwLOyzs-82" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-65" y="1140" width="635" height="530" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1510" y="180" width="170" height="290" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="180" width="170" height="240" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-15" value="Node Trunck" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="190" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-16" value="VarName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="300" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-17" value="Path" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="330" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-18" value="Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="240" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-19" value="[]Children" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="365" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-20" value="Param" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="270" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-23" value="ScalarType" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="360" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-24" value="Resolver" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="390" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-28" value="NodeLeaf" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="190" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-29" value="VarName" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="300" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-30" value="Path" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="330" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-31" value="Index" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="240" width="120" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="DCC6d8GmMCfnuTwLOyzs-33" value="Param" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1520" y="270" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DCC6d8GmMCfnuTwLOyzs-34" value="Build命名为PopulateParamsToNode更好，本质上做的事情&lt;br&gt;&amp;nbsp; 1.deepcopy Factory.root&lt;br&gt;&amp;nbsp; 2.deep copy的过程中，将NodeParam也递归赋值到node上" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="380" y="980" width="280" height="90" as="geometry" />
