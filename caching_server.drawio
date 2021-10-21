@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-21T07:55:45.094Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="BHFASA4rmMU2Jr_t7BzM" version="15.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-21T08:00:47.643Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.54 Safari/537.36" etag="egrroVyAjuP1nz83I98w" version="15.5.6" type="github">
   <diagram id="Nfzj3-45e-fYplGMUKLw" name="Page-1">
     <mxGraphModel dx="1426" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,8 +73,8 @@
         <mxCell id="tfhazVFiJOZhvMuRtOAB-19" value="return" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="100" y="580" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="tfhazVFiJOZhvMuRtOAB-20" value="缓存的目的:减少需要网络调用的场景" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="90" width="230" height="30" as="geometry" />
+        <mxCell id="tfhazVFiJOZhvMuRtOAB-20" value="缓存的目的:减少需要网络调用的场景&lt;br&gt;&lt;br&gt;注意：减少，而不是完全消除。&lt;br&gt;取决于你的目的。缓存是性能和实时性之间的折中。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="230" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
