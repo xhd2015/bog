@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-01T07:39:32.859Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.27 Safari/537.36" etag="MyrsaSphvI1BAIfMz2pI" version="15.5.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-01T07:42:08.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.27 Safari/537.36" etag="p5g7S7u32DLYsgMryXqS" version="15.5.7" type="github" pages="2">
   <diagram id="DktYYdxnDSF5tKOHfMGp" name="whole">
     <mxGraphModel dx="2887" dy="1253" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -157,6 +157,20 @@
         <mxCell id="kgPF0xbDi6plXR7k9kaj-56" value="服务治理的视角" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="535" y="1730" width="185" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="lUuRy7EAE9rD7krjZ2o3-1" value="ediff" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1005" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lUuRy7EAE9rD7krjZ2o3-2" value="lint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1080" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D82r7L6TNju5e7WKdbPx" name="Live">
+    <mxGraphModel dx="1426" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="eS2CwOxysOSDCMnliXQn-0" />
+        <mxCell id="eS2CwOxysOSDCMnliXQn-1" parent="eS2CwOxysOSDCMnliXQn-0" />
       </root>
     </mxGraphModel>
   </diagram>
