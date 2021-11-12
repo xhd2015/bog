@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T10:30:17.561Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="IjZorzrow0ckpuoBoRCl" version="15.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-12T11:17:56.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="aQwqTpfzhxzTPTSPbJ-T" version="15.7.0" type="github" pages="4">
   <diagram id="DktYYdxnDSF5tKOHfMGp" name="whole">
     <mxGraphModel dx="2276" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -736,7 +736,7 @@
         <mxCell id="qEkX5nmN0Hhllj8v14tg-4" value="功能模块" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
           <mxGeometry x="160" y="230" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qEkX5nmN0Hhllj8v14tg-6" value="消息可以定义为任何携带信息的数据，因此不局限于评论的文本，消息可以是信令，用于控制客户端。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-6" value="消息可以定义为任何携带信息的数据，因此不局限于评论的文本，消息可以是信令，用于控制客户端。&lt;br&gt;IM系统是一个数据广播系统。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
           <mxGeometry x="150" y="60" width="250" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qEkX5nmN0Hhllj8v14tg-7" value="置顶消息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
@@ -757,20 +757,74 @@
         <mxCell id="qEkX5nmN0Hhllj8v14tg-12" value="消息Trace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
           <mxGeometry x="170" y="520" width="80" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="qEkX5nmN0Hhllj8v14tg-13" value="SDIM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
-          <mxGeometry x="760" y="590" width="120" height="60" as="geometry" />
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-13" value="SDIM_shard0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="687.5" y="590" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qEkX5nmN0Hhllj8v14tg-14" value="SDIM基于RocksDB，提供当前时间窗口内的全部消息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
-          <mxGeometry x="702.5" y="680" width="235" height="30" as="geometry" />
+          <mxGeometry x="630" y="680" width="235" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qEkX5nmN0Hhllj8v14tg-15" value="2020年业务规模：&lt;br&gt;写峰值QPS：80W&lt;br&gt;读峰值QPS：350W" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
-          <mxGeometry x="710" y="750" width="270" height="60" as="geometry" />
+          <mxGeometry x="490" y="910" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qEkX5nmN0Hhllj8v14tg-16" value="热点直播间" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
           <mxGeometry x="170" y="560" width="80" height="19" as="geometry" />
         </mxCell>
         <mxCell id="qEkX5nmN0Hhllj8v14tg-17" value="发送频控的底层逻辑：某个直播间的消息太多，刷屏速度太快，对用户也不太友好。&lt;br&gt;底层逻辑是人在一定时间内能够接收的消息是有限的" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
           <mxGeometry x="120" y="770" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-18" value="proxy server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1020" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-19" value="主要采用拉模式，定时轮询" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1170" y="314.5" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-20" value="接收者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1020" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-21" value="消息压缩" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="170" y="600" width="80" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-22" value="SDIM_shard1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="975" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-23" value="大部分是RoomID-To-All的消息，因此根据RoomID进行分片" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="955" y="700" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-24" value="push server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="688" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-26" value="发送者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="730" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-27" value="接收者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1060" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-28" value="接收者" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1100" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-29" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="480" as="sourcePoint" />
+            <mxPoint x="1280" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-30" value="超大容量持久化层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="570" y="490" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-31" value="缓存层" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="560" y="269" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-32" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="260" as="sourcePoint" />
+            <mxPoint x="1330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-34" value="整体来说，就是减少数据所经过的链路。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1410" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qEkX5nmN0Hhllj8v14tg-35" value="对实时性要求比较高场景：口令自动判定。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
+          <mxGeometry x="1470" y="370" width="220" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
