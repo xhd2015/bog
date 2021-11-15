@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T09:06:28.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="A7NTj3yINEzQgGJryR3q" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T09:12:34.626Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="vs1ONy_-uYBsPUQHhuTo" version="15.7.3" type="github">
   <diagram id="sMpLHaNCceF8viXUJ_LC" name="scan cursor">
     <mxGraphModel dx="1426" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -38,10 +38,10 @@
           <mxGeometry x="164" y="668" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-12" value="已访问的bucket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="260" y="361" width="50" height="30" as="geometry" />
+          <mxGeometry x="260" y="336" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-13" value="未访问的bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="361" width="50" height="30" as="geometry" />
+          <mxGeometry x="320" y="336" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-15" value="0000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="566" y="443" width="50" height="30" as="geometry" />
@@ -104,7 +104,7 @@
           <mxGeometry x="566" y="893" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-35" value="因为rehash的过程中，只会将同一个后缀的bucket重新打散到两个新bucket中，所以已访问和未访问的性质保持不变" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="390" y="358" width="250" height="70" as="geometry" />
+          <mxGeometry x="390" y="333" width="250" height="70" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-36" value="000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="290" y="1181" width="50" height="30" as="geometry" />
@@ -207,6 +207,18 @@
             <mxPoint x="350" y="1206" as="sourcePoint" />
             <mxPoint x="576" y="1269" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-74" value="size=8, mask=111" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288" y="530" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-75" value="size=16, mask=1111" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="564" y="414" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-76" value="size=8, mask=111" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="288" y="1151" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-77" value="size=4, mask=11" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="564" y="1214" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
