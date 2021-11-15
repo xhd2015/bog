@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-12T11:17:56.882Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="aQwqTpfzhxzTPTSPbJ-T" version="15.7.0" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2021-11-15T10:06:00.129Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="XVURyTnys3qx-R0wpTtm" version="15.7.3" type="github" pages="5">
   <diagram id="DktYYdxnDSF5tKOHfMGp" name="whole">
     <mxGraphModel dx="2276" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -259,13 +259,13 @@
         <mxCell id="IumBu0nk4bdr2ffqIwLM-1" value="风控" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="615" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jwcYMFzHiphUE2r5Pk_H-1" value="anywheredoor(请求调试工具)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jwcYMFzHiphUE2r5Pk_H-1" value="anywheredoor(请求调试工具)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1900" y="527.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jwcYMFzHiphUE2r5Pk_H-2" value="ByteSuite直连线下环境开发调试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="jwcYMFzHiphUE2r5Pk_H-2" value="ByteSuite直连线下环境开发调试" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1900" y="440" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wlg7Pd5o4aaLzBL4x9Dt-1" value="权限系统(kani)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wlg7Pd5o4aaLzBL4x9Dt-1" value="权限系统(kani)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1900" y="607.5" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
@@ -826,6 +826,14 @@
         <mxCell id="qEkX5nmN0Hhllj8v14tg-35" value="对实时性要求比较高场景：口令自动判定。" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qEkX5nmN0Hhllj8v14tg-1">
           <mxGeometry x="1470" y="370" width="220" height="30" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9Ej8ZSlqqVpUeKEtveYn" name="biz-framework">
+    <mxGraphModel dx="1426" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="uLNWkgjCaZRx9_2Pj3bO-0" />
+        <mxCell id="uLNWkgjCaZRx9_2Pj3bO-1" parent="uLNWkgjCaZRx9_2Pj3bO-0" />
       </root>
     </mxGraphModel>
   </diagram>
