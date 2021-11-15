@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T09:02:40.393Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="FAUyLxFa8VMaEs2RQ8uk" version="15.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T09:06:28.248Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.35 Safari/537.36" etag="A7NTj3yINEzQgGJryR3q" version="15.7.3" type="github">
   <diagram id="sMpLHaNCceF8viXUJ_LC" name="scan cursor">
-    <mxGraphModel dx="1426" dy="877" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1426" dy="877" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,10 +38,10 @@
           <mxGeometry x="164" y="668" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-12" value="已访问的bucket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="260" y="390" width="50" height="30" as="geometry" />
+          <mxGeometry x="260" y="361" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-13" value="未访问的bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="390" width="50" height="30" as="geometry" />
+          <mxGeometry x="320" y="361" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-15" value="0000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="566" y="443" width="50" height="30" as="geometry" />
@@ -104,7 +104,109 @@
           <mxGeometry x="566" y="893" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2V68-LivrWGqT7JWQJgw-35" value="因为rehash的过程中，只会将同一个后缀的bucket重新打散到两个新bucket中，所以已访问和未访问的性质保持不变" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="670" y="520" width="250" height="70" as="geometry" />
+          <mxGeometry x="390" y="358" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-36" value="000" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1181" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-37" value="100" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1211" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-38" value="010" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1241" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-39" value="110" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1271" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-40" value="001" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1301" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-41" value="101" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1331" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-42" value="011" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1361" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-43" value="111" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1391" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="1315.5" as="sourcePoint" />
+            <mxPoint x="280" y="1315.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-45" value="cursor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="164" y="1289" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-46" value="已访问的bucket" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1091" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-47" value="未访问的bucket" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="1091" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-52" value="01" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1304" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-53" value="11" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1334" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-56" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="456" y="1318.5" as="sourcePoint" />
+            <mxPoint x="556" y="1318.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-57" value="cursor" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="1292" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-58" value="缩容" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1181" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-61" value="00" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1244" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-62" value="10" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="566" y="1274" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-67" value="因为rehash的过程中，只会将同一个后缀的bucket重新打散到两个新bucket中，所以已访问和未访问的性质保持不变" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1076" width="250" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-68" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V68-LivrWGqT7JWQJgw-2" target="2V68-LivrWGqT7JWQJgw-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="387" y="575" as="sourcePoint" />
+            <mxPoint x="437" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-69" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V68-LivrWGqT7JWQJgw-2" target="2V68-LivrWGqT7JWQJgw-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="585" as="sourcePoint" />
+            <mxPoint x="576" y="468" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-70" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V68-LivrWGqT7JWQJgw-5" target="2V68-LivrWGqT7JWQJgw-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="585" as="sourcePoint" />
+            <mxPoint x="576" y="498" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-71" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V68-LivrWGqT7JWQJgw-5" target="2V68-LivrWGqT7JWQJgw-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="675" as="sourcePoint" />
+            <mxPoint x="576" y="678" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-72" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V68-LivrWGqT7JWQJgw-36" target="2V68-LivrWGqT7JWQJgw-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="438" y="1066" as="sourcePoint" />
+            <mxPoint x="664" y="979" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2V68-LivrWGqT7JWQJgw-73" value="" style="endArrow=classic;html=1;rounded=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="2V68-LivrWGqT7JWQJgw-37" target="2V68-LivrWGqT7JWQJgw-61">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="1206" as="sourcePoint" />
+            <mxPoint x="576" y="1269" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
