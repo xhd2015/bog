@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-16T13:02:00.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="jgbwauhEtZRbybUeoJSW" version="15.9.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-16T13:02:24.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="hbulmZS7h0iRrAW2awgq" version="15.9.4" type="github" pages="2">
   <diagram id="Z9--X8Tv3oQYfTn5Jpwc" name="Page-1">
     <mxGraphModel dx="1426" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,8 +120,8 @@
         <mxCell id="tdog7MNdumBK9eh-BJ6M-6" value="DNS Forwarder" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tdog7MNdumBK9eh-BJ6M-1">
           <mxGeometry x="400" y="230" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="tdog7MNdumBK9eh-BJ6M-7" value="DNS Forwarder does not actually hold the database, instead do caching and recursive lookup" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tdog7MNdumBK9eh-BJ6M-1">
-          <mxGeometry x="310" y="80" width="300" height="30" as="geometry" />
+        <mxCell id="tdog7MNdumBK9eh-BJ6M-7" value="query www.example.com&lt;br&gt;&lt;br&gt;----&lt;br&gt;DNS Forwarder does not actually hold the database, instead do caching and recursive lookup" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="tdog7MNdumBK9eh-BJ6M-1">
+          <mxGeometry x="310" y="30" width="300" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tdog7MNdumBK9eh-BJ6M-9" value="cache" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tdog7MNdumBK9eh-BJ6M-1">
           <mxGeometry x="420" y="310" width="120" height="60" as="geometry" />
