@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-29T08:36:26.683Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="mCorC8F3oHYZfYFV8qRl" version="16.1.0" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2021-12-29T08:39:37.200Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="GRZluhtx91zmYwDibukm" version="16.1.0" type="github" pages="10">
   <diagram id="r9-I6vs-IyL5GgBvDk6a" name="Page-1">
     <mxGraphModel dx="2683" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2617,6 +2617,9 @@
         <mxCell id="sBFu2lOZi1gLsZSGe6_x-63" value="COMBINED &amp;amp;&amp;amp; DOWNPAY_PAYING" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="sBFu2lOZi1gLsZSGe6_x-1">
           <mxGeometry x="690" y="50" width="120" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="7cm7yEFwdnK-T26cCu1h-0" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="sBFu2lOZi1gLsZSGe6_x-1">
+          <mxGeometry x="305" y="640" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -2632,6 +2635,9 @@
           <mxGeometry x="560" y="160" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5gzEFIoFEzBODjRec5BU-34" style="edgeStyle=none;shape=connector;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="5gzEFIoFEzBODjRec5BU-1" source="5gzEFIoFEzBODjRec5BU-3" target="5gzEFIoFEzBODjRec5BU-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jwuG-jwcM22uMMda80a0-1" style="edgeStyle=none;shape=connector;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=11;fontColor=default;endArrow=classic;strokeColor=default;" edge="1" parent="5gzEFIoFEzBODjRec5BU-1" source="5gzEFIoFEzBODjRec5BU-3" target="jwuG-jwcM22uMMda80a0-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="5gzEFIoFEzBODjRec5BU-3" value="确认收货" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5gzEFIoFEzBODjRec5BU-1">
@@ -2830,7 +2836,10 @@
           <mxGeometry x="380" y="520" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eMfjpeNeOetfWNkMDY75-38" value="case：&lt;br&gt;&lt;br&gt;SPM： 用户发起退款，确认收货&lt;br&gt;&lt;br&gt;结果：退款失败&lt;br&gt;&lt;br&gt;投诉：期望退款成功&lt;br&gt;&lt;br&gt;原因：SPM没加锁" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="5gzEFIoFEzBODjRec5BU-1">
-          <mxGeometry x="300" y="560" width="120" height="130" as="geometry" />
+          <mxGeometry x="320" y="550" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jwuG-jwcM22uMMda80a0-0" value="调用bill更新额度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5gzEFIoFEzBODjRec5BU-1">
+          <mxGeometry x="760" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
