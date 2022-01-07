@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-07T08:14:31.568Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="NkTOWY3WkHElNIOm4308" version="16.1.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2022-01-07T08:15:19.851Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="E74WUFYz9XBu_4Bc25Ou" version="16.1.0" type="github" pages="14">
   <diagram id="r9-I6vs-IyL5GgBvDk6a" name="Page-1">
     <mxGraphModel dx="2148" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -2927,7 +2927,7 @@
           <mxGeometry x="440" y="-490" width="760" height="220" as="geometry" />
         </mxCell>
         <mxCell id="g8hma4C72Uj4TOUAgv5y-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pielJ4cAp9onpl5K1k1q-1">
-          <mxGeometry x="470" y="-440" width="470" height="160" as="geometry" />
+          <mxGeometry x="470" y="-440" width="470" height="130" as="geometry" />
         </mxCell>
         <mxCell id="g8hma4C72Uj4TOUAgv5y-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pielJ4cAp9onpl5K1k1q-1">
           <mxGeometry x="30" y="-110" width="1160" height="50" as="geometry" />
@@ -3037,6 +3037,15 @@
         </mxCell>
         <mxCell id="g8hma4C72Uj4TOUAgv5y-50" value="TODO:&amp;nbsp; use&amp;nbsp; timeline in conjunction with other visualizing technique to express this more clearly." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pielJ4cAp9onpl5K1k1q-1">
           <mxGeometry x="105" y="-680" width="305" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="g8hma4C72Uj4TOUAgv5y-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pielJ4cAp9onpl5K1k1q-1" source="g8hma4C72Uj4TOUAgv5y-51" target="g8hma4C72Uj4TOUAgv5y-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g8hma4C72Uj4TOUAgv5y-51" value="Performance" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pielJ4cAp9onpl5K1k1q-1">
+          <mxGeometry x="880" y="-980" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g8hma4C72Uj4TOUAgv5y-53" value="by Person" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="pielJ4cAp9onpl5K1k1q-1">
+          <mxGeometry x="740" y="-740" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
