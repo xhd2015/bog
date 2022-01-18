@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-18T08:35:12.966Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="Blv53seRX77agYVd5oQD" version="16.2.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-18T09:24:33.978Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="qj3-oAFS4DZ3H_1NmYws" version="16.2.4" type="github" pages="3">
   <diagram id="K01BBXSvu-VJyhZwz7T8" name="architecture">
     <mxGraphModel dx="2066" dy="1154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -788,8 +788,143 @@
         <mxCell id="bCpcmMQaXzSpnZymiVTZ-47" value="规则组" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
           <mxGeometry x="608.5" y="1270" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="bCpcmMQaXzSpnZymiVTZ-48" value="一个item可能匹配多个规则，更新item对应的库存时，是否应当更新对应规则的预算？" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
-          <mxGeometry x="234" y="1370" width="270" height="30" as="geometry" />
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-48" value="&lt;font color=&quot;#000000&quot; style=&quot;font-size: 14px&quot;&gt;一个item匹配多个规则，更新item对应的库存时，是否更新对应规则的预算吗？即使折扣并不是由这条规则产生的&lt;/font&gt;" style="text;html=1;strokeColor=default;fillColor=#66B2FF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#ffffff;fontStyle=0" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="239.5" y="1340" width="286" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-53" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-49" target="bCpcmMQaXzSpnZymiVTZ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-56" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-49" target="bCpcmMQaXzSpnZymiVTZ-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-49" value="支付时不更新其他规则预算" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1390" y="1540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-77" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-50" target="bCpcmMQaXzSpnZymiVTZ-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-78" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-50" target="bCpcmMQaXzSpnZymiVTZ-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-50" value="支付时更新其他规则预算" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2000" y="1535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-63" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-51" target="bCpcmMQaXzSpnZymiVTZ-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-64" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-51" target="bCpcmMQaXzSpnZymiVTZ-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-51" value="组内限额按顺序匹配" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1200" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-65" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-55" target="bCpcmMQaXzSpnZymiVTZ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-66" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-55" target="bCpcmMQaXzSpnZymiVTZ-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-55" value="组内限额取最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1510" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-57" value="真正的限额是sum" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1060" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-58" value="真正的限额是所有规则的sum" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1215" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-59" value="组间限额按优先级" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1070" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-60" value="组间限额取最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1210" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-61" value="组间限额按优先级" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1430" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-62" value="组间限额取最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1570" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-69" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1100" y="1880" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-70" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1250" y="1880" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-71" value="真正的限额是各组最小值的sum" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1430" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-72" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1460" y="1883" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-73" value="真正的限额是所有规则的最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1570" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-74" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1610" y="1880" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-81" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-75" target="bCpcmMQaXzSpnZymiVTZ-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-82" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-75" target="bCpcmMQaXzSpnZymiVTZ-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-75" value="组内限额按顺序匹配" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1830" y="1690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-92" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-76" target="bCpcmMQaXzSpnZymiVTZ-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-93" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-76" target="bCpcmMQaXzSpnZymiVTZ-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-76" value="组内限额取最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2160" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-79" value="组间限额按优先级" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1750" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-80" value="组间限额取最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1890" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-83" value="真正的限额是各组最大值的sum" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1760" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-84" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1790" y="1883" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-85" value="真正的限额是组内最大值是组间最小值那一组" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1890" y="1950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-86" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1930" y="1880" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-88" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-87" target="bCpcmMQaXzSpnZymiVTZ-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-89" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=14;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;strokeColor=default;" edge="1" parent="hS5IgAt1AmJeCMLkamly-1" source="bCpcmMQaXzSpnZymiVTZ-87" target="bCpcmMQaXzSpnZymiVTZ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-87" value="Root" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="1700" y="1390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-90" value="组间限额按优先级" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2090" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-91" value="组间限额取最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2230" y="1815" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-94" value="真正的限额是所有规则的最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2240" y="1943" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-95" value="真正的限额是具有最大值的那组的最小值" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2090" y="1943" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-96" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2270" y="1880" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCpcmMQaXzSpnZymiVTZ-97" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;rounded=0;labelBackgroundColor=none;fontFamily=Helvetica;fontSize=14;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;arrowWidth=0.30263157894738696;arrowSize=0.30263157894736425;" vertex="1" parent="hS5IgAt1AmJeCMLkamly-1">
+          <mxGeometry x="2130" y="1880" width="40" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
