@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T02:20:39.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="x0W_2nvybFT7lJN-3Qp7" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T02:36:57.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="3MZE2MjK2bE9IHivj15V" version="16.4.3" type="github">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="1298" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="701" y="503" width="210" height="225" as="geometry" />
+        </mxCell>
         <mxCell id="lbDgCDjzgHXsv_Gr9alT-1" value="locked_inventory_tab" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="380" width="180" height="210" as="geometry" />
         </mxCell>
@@ -84,6 +87,27 @@
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-20" value="A" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="415" width="100" height="488" as="geometry" />
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-21" value="B" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="986" y="415" width="100" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-22" value="insert A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="764" y="527" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-23" value="delete A" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="974" y="577" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-25" value="insert B" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="761" y="626" width="120" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-26" value="transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="702" y="502" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-27" value="if deleting data does not exist, they do not lock.&lt;br&gt;if inserting data does exist, it fail fastly?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="658" y="914" width="289" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
