@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-24T02:36:57.964Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="3MZE2MjK2bE9IHivj15V" version="16.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-24T02:51:47.291Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="CMEOFLj-hfRVGlQ1fEES" version="16.4.3" type="github">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="1298" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -106,8 +106,8 @@
         <mxCell id="lbDgCDjzgHXsv_Gr9alT-26" value="transaction" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="702" y="502" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="lbDgCDjzgHXsv_Gr9alT-27" value="if deleting data does not exist, they do not lock.&lt;br&gt;if inserting data does exist, it fail fastly?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="658" y="914" width="289" height="30" as="geometry" />
+        <mxCell id="lbDgCDjzgHXsv_Gr9alT-27" value="if deleting data does not exist, they do not lock.&lt;br&gt;if inserting data does exist, it fail fastly?&lt;br&gt;&lt;br&gt;&lt;br&gt;multiple transactions inserting the same data?" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="658" y="914" width="289" height="97" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
