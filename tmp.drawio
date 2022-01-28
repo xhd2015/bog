@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T08:34:16.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="rfrP23a3Dfw8YqiB4b1e" version="16.4.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-28T10:49:10.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="grsm2PWoGOOg7leWHONA" version="16.4.11" type="github" pages="3">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -509,17 +509,33 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Q3r0Vzemutd0Jic-wWnY" name="状态流转">
-    <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3025" dy="1215" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Z6aA9Dh2e9hC4RAA0xu--0" />
         <mxCell id="Z6aA9Dh2e9hC4RAA0xu--1" parent="Z6aA9Dh2e9hC4RAA0xu--0" />
-        <mxCell id="CJfNRiZrkD8l-NZAXy0r-0" value="未支付" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-22" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-0" target="CJfNRiZrkD8l-NZAXy0r-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-0" target="CJfNRiZrkD8l-NZAXy0r-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-0" target="CJfNRiZrkD8l-NZAXy0r-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="689" y="793" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-0" target="CJfNRiZrkD8l-NZAXy0r-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-0" value="未支付&lt;br&gt;--&lt;br&gt;PENDING" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="282" y="722" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-2" target="CJfNRiZrkD8l-NZAXy0r-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CJfNRiZrkD8l-NZAXy0r-2" value="已创建" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-2" value="已创建" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="282" y="578" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-4" target="CJfNRiZrkD8l-NZAXy0r-2">
@@ -528,8 +544,129 @@
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-4" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="282" y="396" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CJfNRiZrkD8l-NZAXy0r-6" value="GeneratePayments" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;dashed=1;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-6" target="CJfNRiZrkD8l-NZAXy0r-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="607" y="513" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-6" value="GeneratePayments" style="text;html=1;strokeColor=#6c8ebf;fillColor=#CCCCFF;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="331" y="498" width="113" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-7" value="=" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="327" y="680" width="23" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-9" value="checkout_info" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="723" y="393" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-10" value="order_info" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="723" y="497" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-11" value="order_item_info" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="721" y="594" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-6" target="CJfNRiZrkD8l-NZAXy0r-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="768" y="496" as="targetPoint" />
+            <mxPoint x="454" y="523" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;dashed=1;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-6" target="CJfNRiZrkD8l-NZAXy0r-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="768" y="600" as="targetPoint" />
+            <mxPoint x="464" y="533" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-14" value="chekcout PAYMENT_RESULT&lt;br&gt;&lt;span&gt;0=NONE&lt;/span&gt;&lt;br&gt;1=PENDING&lt;br&gt;2=SUCCESS&lt;br&gt;3=FAILED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DOWNPAY_PAYING&lt;br&gt;6=DOWNPAY_CANCELLING&lt;br&gt;7=VERIFYING&lt;br&gt;&lt;br&gt;&lt;br&gt;order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-597" y="381" width="230" height="446" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-15" value="已支付&lt;br&gt;--&lt;br&gt;SUCCESS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-171" y="957" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-16" value="支付失败&lt;br&gt;--&lt;br&gt;FAILED" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="649" y="976" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-20" value="CheckCommitPayment幂等：允许重复支付。SUCCESS，DOWNPAY_PAYING和FAILED直接返回这些状态。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-562" y="1272" width="241" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-42" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-21" target="CJfNRiZrkD8l-NZAXy0r-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-21" value="下游支付中&lt;br&gt;--&lt;br&gt;DOWNPAY_PAYING" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="282" y="937" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-23" target="CJfNRiZrkD8l-NZAXy0r-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="478" y="854" />
+              <mxPoint x="478" y="890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-47" value="insert downpay status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CJfNRiZrkD8l-NZAXy0r-46">
+          <mxGeometry x="-0.1746" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-48" value="insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CJfNRiZrkD8l-NZAXy0r-46">
+          <mxGeometry x="-0.1746" relative="1" as="geometry">
+            <mxPoint x="-83" y="-390" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-23" value="CheckCommitPayment &amp;amp;&amp;amp; 联合支付" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="250" y="839" width="207" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-27" value="CheckCommitPayment &amp;amp;&amp;amp; 非联合支付" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-143" y="761" width="216" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-0" target="CJfNRiZrkD8l-NZAXy0r-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="491" y="762" />
+              <mxPoint x="491" y="704" />
+              <mxPoint x="350" y="704" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-29" value="CheckCommitPayment Bill超时" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="396" y="720" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-30" value="CheckCommitPayment Bill失败" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="492" y="827" width="176" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-33" value="余额不足 or 账户冻结 or 其他错误" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="729" y="984" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-34" value="CancelPayment幂等：允许重复取消。CANCELLED状态直接返回。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-567" y="1351" width="241" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-35" value="取消&lt;br&gt;--&lt;br&gt;CANCELLED" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-4" y="1217" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-37" value="CancelPayments" style="text;html=1;strokeColor=#6c8ebf;fillColor=#A680B8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="55" y="864" width="111" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-39" value="CancelPayments" style="text;html=1;strokeColor=#6c8ebf;fillColor=#A680B8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="274.5" y="1044" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-43" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-41" target="CJfNRiZrkD8l-NZAXy0r-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="179" y="1153" />
+              <mxPoint x="179" y="1257" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-41" value="下游取消中&lt;br&gt;--&lt;br&gt;DOWNPAY_CANCELLING" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="282" y="1113" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-44" value="CancelPayments &amp;amp;&amp;amp; SPM CANCELLED" style="text;html=1;strokeColor=#6c8ebf;fillColor=#A680B8;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="101" y="1181" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-45" value="checkout_downpay" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="727" y="850" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-49" value="SUCCESS,CANCELLED,FAILED是终态，不能再向其他状态转换" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-570" y="1435" width="241" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
