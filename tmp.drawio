@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T08:27:32.920Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="Q2092Ai8G5cwqFuG_Rui" version="16.4.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-01-28T08:34:16.366Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="rfrP23a3Dfw8YqiB4b1e" version="16.4.11" type="github" pages="3">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -113,7 +113,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PE0LB2QB8iWTYNJEiUhC" name="workspec">
-    <mxGraphModel dx="1878" dy="1049" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1968" dy="1099" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="Yg-qEPUd8cMUOyVQ7tKT-0" />
         <mxCell id="Yg-qEPUd8cMUOyVQ7tKT-1" parent="Yg-qEPUd8cMUOyVQ7tKT-0" />
@@ -513,6 +513,24 @@
       <root>
         <mxCell id="Z6aA9Dh2e9hC4RAA0xu--0" />
         <mxCell id="Z6aA9Dh2e9hC4RAA0xu--1" parent="Z6aA9Dh2e9hC4RAA0xu--0" />
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-0" value="未支付" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="282" y="722" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-2" target="CJfNRiZrkD8l-NZAXy0r-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-2" value="已创建" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="282" y="578" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-4" target="CJfNRiZrkD8l-NZAXy0r-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-4" value="start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="282" y="396" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-6" value="GeneratePayments" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="331" y="498" width="113" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
