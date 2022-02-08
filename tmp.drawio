@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-01-28T10:49:10.945Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="grsm2PWoGOOg7leWHONA" version="16.4.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-08T03:04:40.365Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="7h2s1KSEuq6C-lUygOqV" version="16.4.11" type="github" pages="3">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -594,11 +594,12 @@
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-21" value="下游支付中&lt;br&gt;--&lt;br&gt;DOWNPAY_PAYING" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="282" y="937" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="CJfNRiZrkD8l-NZAXy0r-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-23" target="CJfNRiZrkD8l-NZAXy0r-45">
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="Z6aA9Dh2e9hC4RAA0xu--1" source="CJfNRiZrkD8l-NZAXy0r-23" target="CJfNRiZrkD8l-NZAXy0r-45">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="478" y="854" />
-              <mxPoint x="478" y="890" />
+              <mxPoint x="478" y="922" />
+              <mxPoint x="580" y="922" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -663,7 +664,7 @@
           <mxGeometry x="101" y="1181" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-45" value="checkout_downpay" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
-          <mxGeometry x="727" y="850" width="60" height="80" as="geometry" />
+          <mxGeometry x="550" y="987" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-49" value="SUCCESS,CANCELLED,FAILED是终态，不能再向其他状态转换" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="-570" y="1435" width="241" height="61" as="geometry" />
