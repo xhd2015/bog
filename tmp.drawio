@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T03:45:59.855Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="ljGngb9yo0A5a2g8BLiH" version="16.4.11" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-08T03:58:31.840Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="wkoXiXCkEfbhWVPyh11C" version="16.4.11" type="github" pages="6">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -576,8 +576,8 @@
             <mxPoint x="464" y="533" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CJfNRiZrkD8l-NZAXy0r-14" value="chekcout PAYMENT_RESULT&lt;br&gt;&lt;span&gt;0=NONE&lt;/span&gt;&lt;br&gt;1=PENDING&lt;br&gt;2=SUCCESS&lt;br&gt;3=FAILED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DOWNPAY_PAYING&lt;br&gt;6=DOWNPAY_CANCELLING&lt;br&gt;7=VERIFYING&lt;br&gt;&lt;br&gt;order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
-          <mxGeometry x="-131" y="311" width="230" height="396" as="geometry" />
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-14" value="chekcout PAYMENT_RESULT&lt;br&gt;&lt;span&gt;0=NONE&lt;/span&gt;&lt;br&gt;1=PENDING&lt;br&gt;2=SUCCESS&lt;br&gt;3=FAILED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DOWNPAY_PAYING&lt;br&gt;6=DOWNPAY_CANCELLING&lt;br&gt;7=VERIFYING&lt;br&gt;&lt;br&gt;order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING&lt;br&gt;700=REFUNDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-131" y="311" width="230" height="412" as="geometry" />
         </mxCell>
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-15" value="已支付&lt;br&gt;--&lt;br&gt;SUCCESS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="-171" y="957" width="80" height="80" as="geometry" />
@@ -683,8 +683,8 @@
         <mxCell id="tteUDoIWwir_oujbYXl2-0" value="contract_tab" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="-341" y="839" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jl0pVNcAsZUTKv0TVhlp-1" value="线下支付需要为每个订单生成一个contract.&lt;br&gt;线下支付不支持联合支付。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
-          <mxGeometry x="-300" y="1325" width="241" height="61" as="geometry" />
+        <mxCell id="jl0pVNcAsZUTKv0TVhlp-1" value="线下支付不支持联合支付。在支付成功后转已收货状态，生成合同。线上支付需要确认收货后再生成合同。" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-300" y="1391" width="241" height="61" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -743,8 +743,8 @@
         <mxCell id="8jhVIU7euQUR-sSm1Rs3-13" value="=" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="8jhVIU7euQUR-sSm1Rs3-1">
           <mxGeometry x="327" y="680" width="23" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="8jhVIU7euQUR-sSm1Rs3-19" value="order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="8jhVIU7euQUR-sSm1Rs3-1">
-          <mxGeometry x="-120" y="431" width="230" height="257" as="geometry" />
+        <mxCell id="8jhVIU7euQUR-sSm1Rs3-19" value="order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING&lt;br&gt;700=REFUNDED" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="8jhVIU7euQUR-sSm1Rs3-1">
+          <mxGeometry x="-120" y="431" width="230" height="274" as="geometry" />
         </mxCell>
         <mxCell id="8jhVIU7euQUR-sSm1Rs3-20" value="已收货&lt;br&gt;--&lt;br&gt;CONFIRMED" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="8jhVIU7euQUR-sSm1Rs3-1">
           <mxGeometry x="-219.5" y="957" width="80" height="80" as="geometry" />
@@ -828,6 +828,9 @@
         <mxCell id="mrQqO3lf6BI41WFLGDnI-1" value="CheckCommitPayment &amp;amp;&amp;amp; 非线下支付 &amp;amp;&amp;amp; 成功" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8jhVIU7euQUR-sSm1Rs3-1">
           <mxGeometry x="-82" y="839" width="165" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="RfZs93S-xT9XLRvTqEeY-0" value="仅COFIRMED和PAID的订单可以退款" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8jhVIU7euQUR-sSm1Rs3-1">
+          <mxGeometry x="-366" y="1279" width="241" height="61" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
@@ -866,6 +869,9 @@
         <mxCell id="GNb1I8zSnVarwUUn9tkL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="gcWiJ5OVeuFsj_gVOCdf-9" target="GNb1I8zSnVarwUUn9tkL-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qbQ9uPolwfkmWJAex4hQ-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="gcWiJ5OVeuFsj_gVOCdf-9" target="qbQ9uPolwfkmWJAex4hQ-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="gcWiJ5OVeuFsj_gVOCdf-9" value="CheckCommitPayments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
           <mxGeometry x="-25" y="696" width="140" height="60" as="geometry" />
         </mxCell>
@@ -878,11 +884,52 @@
         <mxCell id="GNb1I8zSnVarwUUn9tkL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="GNb1I8zSnVarwUUn9tkL-2" target="gcWiJ5OVeuFsj_gVOCdf-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GNb1I8zSnVarwUUn9tkL-2" value="if downpay&amp;nbsp;&lt;br&gt;paying" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
+        <mxCell id="GNb1I8zSnVarwUUn9tkL-2" value="if combined &amp;amp;&amp;amp; downpay&amp;nbsp;&lt;br&gt;paying" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
           <mxGeometry x="180" y="702.5" width="116" height="47" as="geometry" />
         </mxCell>
         <mxCell id="GNb1I8zSnVarwUUn9tkL-6" value="end" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
           <mxGeometry x="354" y="791" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qbQ9uPolwfkmWJAex4hQ-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="qbQ9uPolwfkmWJAex4hQ-0" target="qbQ9uPolwfkmWJAex4hQ-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="45" y="888" />
+              <mxPoint x="-45" y="888" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTmeoQzmhA50mHMmAu1H-0" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qbQ9uPolwfkmWJAex4hQ-3">
+          <mxGeometry x="-0.4444" y="-3" relative="1" as="geometry">
+            <mxPoint x="5" y="-26" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eTmeoQzmhA50mHMmAu1H-1" value="no" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="qbQ9uPolwfkmWJAex4hQ-0" target="GNb1I8zSnVarwUUn9tkL-6">
+          <mxGeometry x="-0.8382" relative="1" as="geometry">
+            <mxPoint x="185" y="812.5" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qbQ9uPolwfkmWJAex4hQ-0" value="success?" style="rhombus;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
+          <mxGeometry x="-13" y="797.5" width="116" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="eTmeoQzmhA50mHMmAu1H-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="qbQ9uPolwfkmWJAex4hQ-2" target="eTmeoQzmhA50mHMmAu1H-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qbQ9uPolwfkmWJAex4hQ-2" value="ConfirmPayment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
+          <mxGeometry x="-115" y="935" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTmeoQzmhA50mHMmAu1H-2" value="&lt;span&gt;RefundPayment&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gcWiJ5OVeuFsj_gVOCdf-1">
+          <mxGeometry x="73" y="935" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eTmeoQzmhA50mHMmAu1H-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="gcWiJ5OVeuFsj_gVOCdf-1" source="qbQ9uPolwfkmWJAex4hQ-0" target="eTmeoQzmhA50mHMmAu1H-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="854.5" as="sourcePoint" />
+            <mxPoint x="-19" y="937" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="888" />
+              <mxPoint x="143" y="888" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
