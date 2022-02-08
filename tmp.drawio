@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-08T03:05:32.325Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="swCBIcWSGTgEKZOInUSj" version="16.4.11" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-02-08T03:08:19.359Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="0KgWsWEZjYRK3EMnYBp6" version="16.4.11" type="github" pages="4">
   <diagram id="vrSnZdiB6sLs9gScs7zp" name="Page-1">
     <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -576,8 +576,8 @@
             <mxPoint x="464" y="533" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CJfNRiZrkD8l-NZAXy0r-14" value="chekcout PAYMENT_RESULT&lt;br&gt;&lt;span&gt;0=NONE&lt;/span&gt;&lt;br&gt;1=PENDING&lt;br&gt;2=SUCCESS&lt;br&gt;3=FAILED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DOWNPAY_PAYING&lt;br&gt;6=DOWNPAY_CANCELLING&lt;br&gt;7=VERIFYING&lt;br&gt;&lt;br&gt;&lt;br&gt;order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
-          <mxGeometry x="-431" y="578" width="230" height="446" as="geometry" />
+        <mxCell id="CJfNRiZrkD8l-NZAXy0r-14" value="chekcout PAYMENT_RESULT&lt;br&gt;&lt;span&gt;0=NONE&lt;/span&gt;&lt;br&gt;1=PENDING&lt;br&gt;2=SUCCESS&lt;br&gt;3=FAILED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DOWNPAY_PAYING&lt;br&gt;6=DOWNPAY_CANCELLING&lt;br&gt;7=VERIFYING&lt;br&gt;&lt;br&gt;order OrderStatus&lt;br&gt;0=NONE&lt;br&gt;1=UNPAID&lt;br&gt;2=PAID&lt;br&gt;3=CONFIRMED&lt;br&gt;4=CANCELLED&lt;br&gt;5=DELAY_PAID&lt;br&gt;6=FAILED&lt;br&gt;7=DOWNPAY_PAYING&lt;br&gt;8=DOWNPAY_CANCELLING&lt;br&gt;&lt;br&gt;order ProcessingStatus&lt;br&gt;0=NONE&lt;br&gt;100=PAYING&lt;br&gt;200=CONFIRMING&lt;br&gt;300=REFUNDING&lt;br&gt;301=DOWNPAY_REFUNDING" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;align=left;verticalAlign=top;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
+          <mxGeometry x="-131" y="311" width="230" height="396" as="geometry" />
         </mxCell>
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-15" value="已支付&lt;br&gt;--&lt;br&gt;SUCCESS" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="-171" y="957" width="80" height="80" as="geometry" />
@@ -669,6 +669,14 @@
         <mxCell id="CJfNRiZrkD8l-NZAXy0r-49" value="SUCCESS,CANCELLED,FAILED是终态，不能再向其他状态转换" style="text;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Z6aA9Dh2e9hC4RAA0xu--1">
           <mxGeometry x="-300" y="1254" width="241" height="61" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="WqZlIJR9RzD6dF-3I8Fj" name="Charging model">
+    <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="4gLktxQHkoOTtEzgRvGA-0" />
+        <mxCell id="4gLktxQHkoOTtEzgRvGA-1" parent="4gLktxQHkoOTtEzgRvGA-0" />
       </root>
     </mxGraphModel>
   </diagram>
