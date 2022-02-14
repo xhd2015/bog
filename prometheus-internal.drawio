@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T03:36:49.893Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="QGJWFUHTKLEDGuvFTZ-O" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T03:44:53.167Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="WqgjQRsmTZLfjzGPhPen" version="16.5.4" type="github">
   <diagram id="H9GDcRnk-Ae_k0I3CjnO" name="t-digest">
-    <mxGraphModel dx="2148" dy="834" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2148" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,13 +25,13 @@
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hsNvDbpG6HL5O0MT_Idc-5" target="hsNvDbpG6HL5O0MT_Idc-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hsNvDbpG6HL5O0MT_Idc-5" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;QueryAnother" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hsNvDbpG6HL5O0MT_Idc-5" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;QueryAnother" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="147" y="303" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hsNvDbpG6HL5O0MT_Idc-6" target="hsNvDbpG6HL5O0MT_Idc-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hsNvDbpG6HL5O0MT_Idc-6" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;QuerySomething" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hsNvDbpG6HL5O0MT_Idc-6" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;QuerySomething" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-25" y="303" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-7" value="service" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -40,7 +40,7 @@
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="hsNvDbpG6HL5O0MT_Idc-8" target="hsNvDbpG6HL5O0MT_Idc-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hsNvDbpG6HL5O0MT_Idc-8" value="aggregate task" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hsNvDbpG6HL5O0MT_Idc-8" value="query aggregator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="538" y="661" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-11" value="1.query" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -49,7 +49,7 @@
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-12" value="2.aggregate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="563" y="724" width="66" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="hsNvDbpG6HL5O0MT_Idc-13" value="3. pulled" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="hsNvDbpG6HL5O0MT_Idc-13" value="3. return" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="632" y="587" width="66" height="30" as="geometry" />
         </mxCell>
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-14" value="grafana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -85,7 +85,7 @@
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=101;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" edge="1" parent="1" source="hsNvDbpG6HL5O0MT_Idc-22" target="hsNvDbpG6HL5O0MT_Idc-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hsNvDbpG6HL5O0MT_Idc-22" value="t-digest aggregator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="hsNvDbpG6HL5O0MT_Idc-22" value="t-digest aggregator" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="172" y="542" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="hsNvDbpG6HL5O0MT_Idc-29" value="each [interface x label] per t-digest aggregator, for future more fine-grined query." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
