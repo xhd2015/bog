@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-14T04:01:47.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="TfF7aUkhabVO_ug5Rnxw" version="16.5.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-02-14T06:16:49.426Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36" etag="Em0elKQfB3k27qFwotpS" version="16.5.4" type="github" pages="2">
   <diagram id="H9GDcRnk-Ae_k0I3CjnO" name="t-digest with prometheus">
     <mxGraphModel dx="2148" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -212,7 +212,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="t-digest with Kafka" id="15SIeMntzmcV6wdHUwHx">
-    <mxGraphModel dx="2148" dy="777" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2086" dy="740" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="3acaix5_vY9yPAFWa_hr-0" />
         <mxCell id="3acaix5_vY9yPAFWa_hr-1" parent="3acaix5_vY9yPAFWa_hr-0" />
@@ -288,7 +288,7 @@
         <mxCell id="bclBKjhQcF26-BV4mexX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="3acaix5_vY9yPAFWa_hr-1" source="3acaix5_vY9yPAFWa_hr-39" target="bclBKjhQcF26-BV4mexX-0">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3acaix5_vY9yPAFWa_hr-39" value="kafka producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
+        <mxCell id="3acaix5_vY9yPAFWa_hr-39" value="&lt;b&gt;kafka&lt;/b&gt; producer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
           <mxGeometry x="337" y="482" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3acaix5_vY9yPAFWa_hr-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3acaix5_vY9yPAFWa_hr-1" source="3acaix5_vY9yPAFWa_hr-41" target="3acaix5_vY9yPAFWa_hr-51">
@@ -360,10 +360,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="bclBKjhQcF26-BV4mexX-0" value="broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
+        <mxCell id="bclBKjhQcF26-BV4mexX-0" value="&lt;b&gt;kafka&lt;/b&gt; broker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
           <mxGeometry x="536" y="482" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bclBKjhQcF26-BV4mexX-2" value="consumer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
+        <mxCell id="bclBKjhQcF26-BV4mexX-2" value="&lt;b&gt;kafka&lt;/b&gt; consumer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
           <mxGeometry x="536" y="603" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="bclBKjhQcF26-BV4mexX-5" value="do aggregate within a time range" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
@@ -375,8 +375,8 @@
         <mxCell id="bclBKjhQcF26-BV4mexX-9" value="Prometheus Server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
           <mxGeometry x="815" y="482" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="bclBKjhQcF26-BV4mexX-10" value="export data via prometheus agent protocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
-          <mxGeometry x="670" y="564" width="247" height="30" as="geometry" />
+        <mxCell id="bclBKjhQcF26-BV4mexX-10" value="export data via prometheus" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
+          <mxGeometry x="696" y="564" width="157" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Fjvdt_ZC5c2i-bHFrerW-0" value="grafana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3acaix5_vY9yPAFWa_hr-1">
           <mxGeometry x="1022" y="482" width="120" height="60" as="geometry" />
