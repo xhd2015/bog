@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T02:23:59.655Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="4Wt6Yhv1pgr_4bx4Jpqd" version="16.5.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-02-14T01:42:49.629Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36" etag="xL7y6XmdAw1MsTSQ2PPO" version="16.5.3" type="github" pages="7">
   <diagram id="mKYcV2B2c2Zmwnj_WsOj" name="Checkout Lifecycle">
     <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -971,6 +971,29 @@
         </mxCell>
         <mxCell id="gnm8LPor-YbgzzOfG00l-25" value="GeneratePayments" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="gnm8LPor-YbgzzOfG00l-1">
           <mxGeometry x="66" y="378" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-wxDqi2RKon_uqQM2i0U" name="Code Organization">
+    <mxGraphModel dx="2066" dy="1154" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="ZXITGIUZxSatVx83racf-0" />
+        <mxCell id="ZXITGIUZxSatVx83racf-1" parent="ZXITGIUZxSatVx83racf-0" />
+        <mxCell id="ZXITGIUZxSatVx83racf-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="ZXITGIUZxSatVx83racf-1" target="ZXITGIUZxSatVx83racf-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="419" y="183" as="targetPoint" />
+            <mxPoint x="382" y="168" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZXITGIUZxSatVx83racf-2" value="&amp;lt;&amp;lt;handler&amp;gt;&amp;gt;&lt;br&gt;src/service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZXITGIUZxSatVx83racf-1">
+          <mxGeometry x="155" y="365" width="453" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZXITGIUZxSatVx83racf-4" value="&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;br&gt;src/service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZXITGIUZxSatVx83racf-1">
+          <mxGeometry x="73" y="540" width="453" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZXITGIUZxSatVx83racf-5" value="some logic here wh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZXITGIUZxSatVx83racf-1">
+          <mxGeometry x="176" y="397" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
